@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import doctorImage from "../assets/microscope.png";
+import doctorImage from "../assets/causes.jpg";
 
 function Causes() {
   return (
@@ -35,7 +35,7 @@ function Causes() {
             className="d-flex justify-content-center justify-content-md-end"
           >
             <img
-              style={{ maxWidth: "70%" }}
+              style={{ maxWidth: "55%" }}
               src={doctorImage}
               alt="Doctor with microscope"
             />

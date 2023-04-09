@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import doctorImage from "../assets/microscope.png";
+import doctorImage from "../assets/about.jpg";
 
 const About = () => {
   return (

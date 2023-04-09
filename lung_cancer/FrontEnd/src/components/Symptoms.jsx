@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import doctorImage from "../assets/microscope.png";
+import doctorImage from "../assets/symptoms.png";
 
 const Symptoms = () => {
   return (
@@ -37,7 +37,7 @@ const Symptoms = () => {
             className="d-flex justify-content-center justify-content-md-end"
           >
             <img
-              style={{ maxWidth: "70%" }}
+              style={{ maxWidth: "55%" }}
               src={doctorImage}
               alt="Doctor with microscope"
             />
